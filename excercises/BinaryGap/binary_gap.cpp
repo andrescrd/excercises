@@ -8,7 +8,7 @@ std::string binary_gap::get_binary(const int num)
     return  std::bitset<64>(num).to_string().substr(sub);
 }
 
-int binary_gap::get_max_gap(const int num)
+int binary_gap::solution(const int num)
 {
     if(num <= 0)
         return 0;
