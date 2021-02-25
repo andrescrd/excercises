@@ -8,22 +8,26 @@
 
 int main()
 {
+    // BinaryGap
+    std::cout << "BinaryGap" << std::endl;
     std::cout << "Gap 9: " << binary_gap::solution(9) << std::endl;
     std::cout << "Gap 529: " << binary_gap::solution(529) << std::endl;
-    std::cout << "Gap 20: " << binary_gap::solution(20) << std::endl;
-    std::cout << "Gap 15: " << binary_gap::solution(15) << std::endl;
-    std::cout << "Gap 32: " << binary_gap::solution(32) << std::endl;
-    std::cout << "Gap 1041: " << binary_gap::solution(1041) << std::endl;
 
+    std::cout << std::endl;
 
-    std::vector<int>  test = {3,5,8,6,7}; 
-    cyclic_rotation::solution(test,3);  
+    // CyclicRotation
+    std::cout << "CyclicRotation" << std::endl;
+    std::vector<int> test = {3, 5, 8, 6, 7};
+    cyclic_rotation::solution(test, 3);
 
     for (int i = 0; i < test.size(); ++i)
-        std::cout << test[i];
+        std::cout << test[i]  << " " << std::flush;
 
-    std::vector<int>  test2 = {3,5,5,3,8,6,6,7,8}; 
+    std::cout << std::endl << std::endl;
 
-   std::cout << "Odd : " <<  odd_occurrences::solution(test2) << std::endl;
+    // OddOccurrencesInArray
+    std::cout << "OddOccurrencesInArray" << std::endl;
+    std::vector<int> test2 = {3, 5, 5, 3, 8, 6, 6, 7,7, 8,84};
+    std::cout << "Odd : " << odd_occurrences::solution(test2) << std::endl;
     return 0;
 }
