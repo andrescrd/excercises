@@ -216,11 +216,13 @@
     </ClCompile>
     <ClCompile Include="CyclicRotation\cyclic_rotation.cpp" />
     <ClCompile Include="excercises.cpp" />
+    <ClCompile Include="FrogJmp\frog_jmp.cpp" />
     <ClCompile Include="OddOccurrencesInArray\odd_occurrences.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryGap\binary_gap.h" />
     <ClInclude Include="CyclicRotation\cyclic_rotation.h" />
+    <ClInclude Include="FrogJmp\frog_jmp.h" />
     <ClInclude Include="OddOccurrencesInArray\odd_occurrences.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,6 +4,7 @@
 
 #include "BinaryGap/binary_gap.h"
 #include "CyclicRotation/cyclic_rotation.h"
+#include "FrogJmp/frog_jmp.h"
 #include "OddOccurrencesInArray/odd_occurrences.h"
 
 int main()
@@ -29,5 +30,11 @@ int main()
     std::cout << "OddOccurrencesInArray" << std::endl;
     std::vector<int> test2 = {3, 5, 5, 3, 8, 6, 6, 7,7, 8,84};
     std::cout << "Odd : " << odd_occurrences::solution(test2) << std::endl;
+
+    std::cout << std::endl;
+
+    // FrogJmp
+    std::cout << "FrogJmp" << std::endl;
+    std::cout <<  frog_jmp::solution(10,85,30) << std::endl;
     return 0;
 }
