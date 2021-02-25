@@ -4,6 +4,7 @@
 
 #include "BinaryGap/binary_gap.h"
 #include "CyclicRotation/cyclic_rotation.h"
+#include "OddOccurrencesInArray/odd_occurrences.h"
 
 int main()
 {
@@ -21,5 +22,8 @@ int main()
     for (int i = 0; i < test.size(); ++i)
         std::cout << test[i];
 
+    std::vector<int>  test2 = {3,5,5,3,8,6,6,7,8}; 
+
+   std::cout << "Odd : " <<  odd_occurrences::solution(test2) << std::endl;
     return 0;
 }
