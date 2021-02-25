@@ -219,6 +219,7 @@
     <ClCompile Include="FrogJmp\frog_jmp.cpp" />
     <ClCompile Include="OddOccurrencesInArray\odd_occurrences.cpp" />
     <ClCompile Include="PermMissingElem\perm_missing_elem.cpp" />
+    <ClCompile Include="TapeEquilibrium\tape_equilibrium.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryGap\binary_gap.h" />
@@ -226,9 +227,7 @@
     <ClInclude Include="FrogJmp\frog_jmp.h" />
     <ClInclude Include="OddOccurrencesInArray\odd_occurrences.h" />
     <ClInclude Include="PermMissingElem\perm_missing_elem.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TapeEquilibrium" />
+    <ClInclude Include="TapeEquilibrium\tape_equilibrium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

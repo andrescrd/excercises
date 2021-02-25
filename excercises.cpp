@@ -7,6 +7,7 @@
 #include "FrogJmp/frog_jmp.h"
 #include "OddOccurrencesInArray/odd_occurrences.h"
 #include "PermMissingElem/perm_missing_elem.h"
+#include "TapeEquilibrium/tape_equilibrium.h"
 
 int main()
 {
@@ -40,9 +41,16 @@ int main()
 
     std::cout << std::endl;
 
-    // FrogJmp
+    // PermMissingElem
     std::cout << "PermMissingElem" << std::endl;
     std::vector<int> missing = {14,17,11,13,12,16};
     std::cout <<  perm_missing_elem::solution(missing) << std::endl;
+
+    std::cout << std::endl;
+
+    // TapeEquilibrium                                                     
+    std::cout << "TapeEquilibrium" << std::endl;                           
+    std::vector<int> tape = {3,1,2,4,3};                        
+    std::cout <<  tape_equilibrium::solution(tape) << std::endl;       
     return 0;
 }
