@@ -6,6 +6,7 @@
 #include "CyclicRotation/cyclic_rotation.h"
 #include "FrogJmp/frog_jmp.h"
 #include "OddOccurrencesInArray/odd_occurrences.h"
+#include "PermMissingElem/perm_missing_elem.h"
 
 int main()
 {
@@ -36,5 +37,12 @@ int main()
     // FrogJmp
     std::cout << "FrogJmp" << std::endl;
     std::cout <<  frog_jmp::solution(10,85,30) << std::endl;
+
+    std::cout << std::endl;
+
+    // FrogJmp
+    std::cout << "PermMissingElem" << std::endl;
+    std::vector<int> missing = {14,17,11,13,12,16};
+    std::cout <<  perm_missing_elem::solution(missing) << std::endl;
     return 0;
 }
