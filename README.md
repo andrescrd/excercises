@@ -1,3 +1,3 @@
 # Excercises
 
-Codility excercises
+Codility excercises solved in cpp
