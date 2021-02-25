@@ -227,6 +227,9 @@
     <ClInclude Include="OddOccurrencesInArray\odd_occurrences.h" />
     <ClInclude Include="PermMissingElem\perm_missing_elem.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TapeEquilibrium" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
