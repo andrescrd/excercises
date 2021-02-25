@@ -18,7 +18,7 @@ int binary_gap::get_max_gap(const int num)
 
     std::string binary = get_binary(num);
 
-    for (int count = 0; count < binary.length(); count++)
+    for (int count = 1; count < binary.length(); count++)
     {
         if (binary[count] == '0')
         {
