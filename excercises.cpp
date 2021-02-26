@@ -5,6 +5,7 @@
 #include "BinaryGap/binary_gap.h"
 #include "CyclicRotation/cyclic_rotation.h"
 #include "FrogJmp/frog_jmp.h"
+#include "FrogRiverOne/frog_river_one.h"
 #include "OddOccurrencesInArray/odd_occurrences.h"
 #include "PermMissingElem/perm_missing_elem.h"
 #include "TapeEquilibrium/tape_equilibrium.h"
@@ -51,6 +52,11 @@ int main()
     // TapeEquilibrium                                                     
     std::cout << "TapeEquilibrium" << std::endl;                           
     std::vector<int> tape = {3,1,2,4,3};                        
-    std::cout <<  tape_equilibrium::solution(tape) << std::endl;       
+    std::cout <<  tape_equilibrium::solution(tape) << std::endl;
+
+    // TapeEquilibrium                                                     
+    std::cout << "TapeEquilibrium" << std::endl;                           
+    std::vector<int> fog_river = {1,3,1,4,2,3,6,5,4};                        
+    std::cout <<  frog_river_one::solution(6, fog_river) << std::endl;       
     return 0;
 }

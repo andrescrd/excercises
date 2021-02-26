@@ -217,6 +217,7 @@
     <ClCompile Include="CyclicRotation\cyclic_rotation.cpp" />
     <ClCompile Include="excercises.cpp" />
     <ClCompile Include="FrogJmp\frog_jmp.cpp" />
+    <ClCompile Include="FrogRiverOne\frog_river_one.cpp" />
     <ClCompile Include="OddOccurrencesInArray\odd_occurrences.cpp" />
     <ClCompile Include="PermMissingElem\perm_missing_elem.cpp" />
     <ClCompile Include="TapeEquilibrium\tape_equilibrium.cpp" />
@@ -225,6 +226,7 @@
     <ClInclude Include="BinaryGap\binary_gap.h" />
     <ClInclude Include="CyclicRotation\cyclic_rotation.h" />
     <ClInclude Include="FrogJmp\frog_jmp.h" />
+    <ClInclude Include="FrogRiverOne\frog_river_one.h" />
     <ClInclude Include="OddOccurrencesInArray\odd_occurrences.h" />
     <ClInclude Include="PermMissingElem\perm_missing_elem.h" />
     <ClInclude Include="TapeEquilibrium\tape_equilibrium.h" />
