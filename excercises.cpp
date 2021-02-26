@@ -54,8 +54,10 @@ int main()
     std::vector<int> tape = {3,1,2,4,3};                        
     std::cout <<  tape_equilibrium::solution(tape) << std::endl;
 
-    // TapeEquilibrium                                                     
-    std::cout << "TapeEquilibrium" << std::endl;                           
+    std::cout << std::endl;
+
+    // FrogRiverOne                                                     
+    std::cout << "FrogRiverOne" << std::endl;                           
     std::vector<int> fog_river = {1,3,1,4,2,3,6,5,4};                        
     std::cout <<  frog_river_one::solution(6, fog_river) << std::endl;       
     return 0;
