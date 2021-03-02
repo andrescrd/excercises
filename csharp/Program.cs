@@ -25,6 +25,9 @@ namespace excercises
             Console.WriteLine(Environment.NewLine);
 
             Console.WriteLine($"PermMissingElem: {PermMissingElem.Solution(new[] {6, 7, 8, 1, 2, 4, 5})}");
+            Console.WriteLine(Environment.NewLine);   
+            
+            Console.WriteLine($"TapeEquilibrium: {TapeEquilibrium.Solution(new[] {3,1,2,4,3})}");
             Console.WriteLine(Environment.NewLine);
         }
     }
