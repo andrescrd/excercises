@@ -5,15 +5,14 @@ public static class PermMissingElem
     public static int Solution(int[] a)
     {
         if (a.Length <= 0) return 0;
+        
+        var size = a.Length + 1;
+        var sum = size * (1 + size) / 2; //https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
+        var aSum = 0;
 
-        var orderedEnumerable = a.OrderBy(r => r).ToArray();
+        for (int i = 0; i < a.Length; i++)
+            aSum += a[i];
 
-        for (int i = 0; i < orderedEnumerable.Length; i++)
-        {
-            if (i + 1 != orderedEnumerable[i])
-                return i + 1;
-        }
-
-        return 0;
+        return sum - aSum;
     }
 }
