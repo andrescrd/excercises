@@ -1,2 +1,6 @@
-﻿/.idea
-/x64
+﻿cpp/.idea
+cpp/x64
+csharp/.idea
+csharp/bin
+csharp/obj
+csharp/
