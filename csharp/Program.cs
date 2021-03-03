@@ -45,6 +45,9 @@ namespace excercises
             Console.WriteLine(Environment.NewLine);
             
             Console.WriteLine($"CountDiv: {CountDiv.Solution(11, 345, 17)}");
+            Console.WriteLine(Environment.NewLine); 
+            
+            Console.WriteLine($"PassingCars: {PassingCars.Solution(new []{0,1,0,1,1})}");
             Console.WriteLine(Environment.NewLine);
         }
     }
