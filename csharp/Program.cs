@@ -38,6 +38,10 @@ namespace excercises
             Console.WriteLine(Environment.NewLine);    
             
             Console.WriteLine($"MissingInteger: {MissingInteger.Solution(new []{1, 3, 6, 4, 1, 2})}");
+            Console.WriteLine(Environment.NewLine);  
+            
+            Console.WriteLine($"PermCheck: {PermCheck.Solution(new []{4,1,3,2})}");
+            Console.WriteLine($"PermCheck: {PermCheck.Solution(new []{4,1,3})}");
             Console.WriteLine(Environment.NewLine);
         }
     }
