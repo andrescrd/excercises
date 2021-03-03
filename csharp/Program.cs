@@ -55,6 +55,10 @@ namespace excercises
             //
             Console.WriteLine($"MaxProductOfThree: {MaxProductOfThree.Solution(new []{-3,1,2,-2,5,6})}");
             Console.WriteLine(Environment.NewLine);
+            
+            Console.WriteLine($"Triangle: {Triangle.Solution(new []{10,2,5,1,8,20})}");
+            Console.WriteLine($"Triangle: {Triangle.Solution(new []{10,50,5,1})}");
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }
