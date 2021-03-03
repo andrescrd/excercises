@@ -48,6 +48,12 @@ namespace excercises
             Console.WriteLine(Environment.NewLine); 
             
             Console.WriteLine($"PassingCars: {PassingCars.Solution(new []{0,1,0,1,1})}");
+            Console.WriteLine(Environment.NewLine);  
+            
+            // Console.WriteLine($"MinAvgTwoSlice: {MinAvgTwoSlice.Solution(new []{4,2,2,5,1,5,8})}");
+            // Console.WriteLine(Environment.NewLine);
+            //
+            Console.WriteLine($"MaxProductOfThree: {MaxProductOfThree.Solution(new []{-3,1,2,-2,5,6})}");
             Console.WriteLine(Environment.NewLine);
         }
     }
