@@ -35,6 +35,9 @@ namespace excercises
 
             var maxCounter = MaxCounters.Solution(5, new[] {3, 4, 4, 6, 1, 4, 4});
             Console.WriteLine($"MaxCounters: {string.Join('-', maxCounter)}");
+            Console.WriteLine(Environment.NewLine);    
+            
+            Console.WriteLine($"MissingInteger: {MissingInteger.Solution(new []{1, 3, 6, 4, 1, 2})}");
             Console.WriteLine(Environment.NewLine);
         }
     }
