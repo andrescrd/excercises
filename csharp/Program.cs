@@ -32,6 +32,10 @@ namespace excercises
 
             Console.WriteLine($"FrogRiverOne: {FrogRiverOne.Solution(5,new[] {1,3,1,4,2,3,6,5,4})}");
             Console.WriteLine(Environment.NewLine);
+
+            var maxCounter = MaxCounters.Solution(5, new[] {3, 4, 4, 6, 1, 4, 4});
+            Console.WriteLine($"MaxCounters: {string.Join('-', maxCounter)}");
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }
