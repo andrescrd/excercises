@@ -43,6 +43,9 @@ namespace excercises
             Console.WriteLine($"PermCheck: {PermCheck.Solution(new []{4,1,3,2})}");
             Console.WriteLine($"PermCheck: {PermCheck.Solution(new []{4,1,3})}");
             Console.WriteLine(Environment.NewLine);
+            
+            Console.WriteLine($"CountDiv: {CountDiv.Solution(11, 345, 17)}");
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }
