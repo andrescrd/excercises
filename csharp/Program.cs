@@ -29,6 +29,9 @@ namespace excercises
             
             Console.WriteLine($"TapeEquilibrium: {TapeEquilibrium.Solution(new[] {3,1,2,4,3})}");
             Console.WriteLine(Environment.NewLine);
+
+            Console.WriteLine($"FrogRiverOne: {FrogRiverOne.Solution(5,new[] {1,3,1,4,2,3,6,5,4})}");
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }
